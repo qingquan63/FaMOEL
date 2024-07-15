@@ -28,7 +28,12 @@ torch==2.3.1+cu121
 geatpy==2.7.0
 ```
 
+
+
+## How to use
+
 #### Load/Add dataset
+
 1. Data pre-processing is based on the [approach](https://github.com/algofairness/fairness-comparison).
    1. Put the raw data in `FairEMOL/EvolutionaryCodes/data/raw`
    2. Write the code to process raw data in `FairEMOL/EvolutionaryCodes/data/objects`, e.g., `German.py`
